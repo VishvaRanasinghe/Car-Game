@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/rootLayout"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/score"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:text="Score : 0"
+        android:textAlignment="center"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/highScore"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textAlignment="center"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:text="Start"
+        android:backgroundTint="#029FE6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/restartBtn"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:text="Restart"
+        android:backgroundTint="#FF6347"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+</LinearLayout>
